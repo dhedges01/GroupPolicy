@@ -2,7 +2,7 @@
 
 Import-Module -Name ActiveDirectory
 Import-Module GroupPolicy
-Import-Module "$env:USERPROFILE\Downloads\GPWmiFilter.psm1"
+Import-Module GPWmiFilter.psm1  #https://gallery.technet.microsoft.com/scriptcenter/Group-Policy-WMI-filter-38a188f3
 
 Set-Location $env:SystemDrive
 

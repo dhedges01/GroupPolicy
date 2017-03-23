@@ -6,7 +6,7 @@ Set-Location $env:SystemDrive | Out-Null
 Try{
     Import-Module -Name ActiveDirectory -ErrorAction Stop | Out-Null
     Import-Module GroupPolicy -ErrorAction Stop | Out-Null
-    Import-Module GPWmiFilter.psm1 -ErrorAction Stop | Out-Null
+    Import-Module GPWmiFilter.psm1 -ErrorAction Stop | Out-Null  #https://gallery.technet.microsoft.com/scriptcenter/Group-Policy-WMI-filter-38a188f3
 }
 Catch{
     Write-Error $_.Exception
